@@ -1,0 +1,25 @@
+REST API -JSON
+
+GET/user- Html document render
+
+GET/api/user- list all users in JSON ============== - html document render
+
+GET/api/user/1 - Get the user with id1
+GET/api/user/2 - Get the user with id2
+
+Dynamic Path Parameters
+GET/api/users/:id
+:id -> Variable | Dynamic
+
+POST/api/users - Create new user
+
+PATCH/api/users/1 - Edit the user with id1
+
+DELETE/api/users/1 -Delete the user with 
+
+
+// POSTMAN - API Testing and Documentation
+
+Middleware - plugins
+Takes the request from the user to send it to the server to get the response from it 
+Middleware gives either the authentication or it doesn't authenticates

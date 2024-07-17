@@ -1,0 +1,87 @@
+
+NOTES -1
+// URL -Uniform resource locator
+https -ssl certificate
+http - no ssl certificate
+ // Path- /contact/1: nested Path
+ // Query Parameters - extra parameters with URL
+       begin with ? mark and separated with &
+ aditya.dev/about?userId=1&A=2
+
+
+
+NOTES -2
+
+Why shift to express?
+*   code confusing 
+*   each route more code
+*   different module for each 
+*   no my handler function
+
+express  
+* code clean
+* modular code
+
+version
+^4.18.2
+
+1st part -> 4 -> Major release / Breaking update
+2nd part -> 18 -> Recommended security Fixes and functionality addition
+3rd part ->  2 -> Minor Fixes(optional) 
+
+install express=^4.18.2
+
+4.18.2 -> < 5.0.0
+^ Install all recommended and minor changes automatically
+
+~4.18.1
+~4.18.2
+~4.18.3
+~4.18.4
+
+~4.18.9
+
+~4.19.1 -> No..........
+
+latest will automatically update vesion and may be not good practice for the code in already another  vesion
+
+//MIDDLEWARE - It is a plugin
+Takes the request from the user to send it to the server to get the response from it 
+Middleware gives either the authentication or it doesn't authenticates
+
+
+// HTTP Header - Meta-data of the data that is going to be requested and responsed i.e. the additional information of the data
+
+// HTTP Response status codes
+
+indicates wheather a specific HTTP request has been successfully completed 
+
+====Informational Responses ......100-199
+====Successful Responses .........200-299
+====Redirection Responses ........300-399
+====Client Error Responses .......400-499
+====Server Error Responses .......500-599
+
+status defined by RFC 9110
+
+// MONGO-DB
+
+== No-sql document based database
+== strong support to aggregation pipes 
+== works on the BSON format
+== Best for node applications compatibility
+
+Collections - "users" 
+/////collection may consist many of the documents there Document -1 or Document -2
+
+> show dbs
+> use <db_name>
+> show collections
+> db.coll.find()
+> db.col.insert()
+
+// MONGOOSE 
+
+Schema - Define the structure
+         Schema - model 
+         Using model we perform CRUD operations
